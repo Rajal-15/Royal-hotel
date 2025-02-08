@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Hotel </title>
+   
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 60vh;
+        }
+            
+        
+        .section1{
+             
+            height: 100vh;
+            width: 100vw;
+            background: url('bg1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1.1;
+        }
+        nav{
+            width: 54vw;
+           
+            display: flex;
+            flex-wrap: wrap;
+            float: right;
+            color: white;
+            /* padding: 0px 0px 0px 20px; */
+        }
+        nav button {
+            height: 35px;
+            width: 135px;
+            border: 2px black;
+            border-radius: 10px;
+            background-color:rgb(87, 47, 50);
+            color: white;
+            font-size: 16px;
+            margin: 5px 0px;
+
+        }
+        nav button a{
+            text-decoration: none;
+            color:white;
+        }
+        nav button:hover{
+            background-color: rgb(142, 139, 139);
+            color: rgb(60, 59, 59);
+            border: 2px solid  rgb(60, 59, 59);
+            transform: scale(1.0);
+        }
+        
+        .nav1 {
+            text-decoration: none;
+            
+            margin: 13px 21px;
+           color: white;
+            font-size: 18px;
+        }
+        .nav1:hover{
+          transform: scale(1.1);        }
+        .middle h1{
+            position: relative;
+            top: 156px;
+            left: 544px;
+            font-size: 50px;
+            color:rgb(61, 61, 61);
+            width: 30vw;
+        }
+        pre {
+            position: relative;
+            top: 77px;
+            left: 614px;
+            font-size: 14px;
+            color:grey; 
+            width: 20vw;
+        }
+        .about{
+            height: 40vh;
+            width: 50vw;
+            float: right;
+            background-color: black;
+            opacity: 0.5;
+            color: white;
+            border-radius: 5px;
+            
+        }
+        .about h2{
+            font-size: 40px;
+            padding: 33px 26px;
+            text-align: center;
+            
+           
+        }
+        .about ul {
+            font-size: 20px;
+            padding: 0px 21px 19px 100px ;
+        }
+        .about ul li{
+            margin: 8px 0px ;
+        }
+        
+        .about button{
+            width: 145px;
+            height: 39px;
+            font-size: 19px;
+            border: 3px solid white;
+            border-radius: 11px;
+            background-color:black;
+            
+            margin: 0px 225px;
+
+        }
+        .about button a{
+            text-decoration: none;
+            color: white;
+        }
+        .about button:hover{
+           transform: scale(1.1);
+          
+        }
+      
+
+        .logo{
+            margin: 4px 3px 4px 4px;
+            height: 75px;
+             width:75px;
+        }
+       .middle p b{
+        position: relative;
+        top: 157px;
+        font-size: 20px;
+        left: 505px;
+        color:rgb(61, 61, 61);
+        width: 36vw;
+       }
+      .about p{
+        margin: 0px 326px;
+        font-size: 12px;
+        
+        width: 148px;
+      }
+      .section2{
+        display: flex;
+        background-color: rgb(209, 207, 207);
+      }
+      .box1{
+        height: 400px;
+        width: 50vw;
+        padding: 64px 6px;
+        margin: 88px 8px 12px 55px;
+      }
+      .box2{
+        height: 400px;
+        width: 50vw;
+        padding: 66px 6px;
+        margin: 88px 92px 12px 172px;
+      }
+      .content{
+        margin: 10px 0px 0px 0px ;
+      } 
+      .box1 h1{
+        margin: 5px 0px 0px 0px;
+      }
+      .sign{
+        height: 50px;
+        width: 200px;
+        margin: 27px 0px 0px 127px;
+      }
+      .manager{
+        margin: 7px 0px 0px 118px;
+      }
+      .section3{
+        display: flex;
+       
+
+      }
+      .box3{
+        height: 580px;
+        width: 50vw;
+        margin: 135px 0px 0px 0px;
+      }
+      .box4{
+        margin: 135px 0px 0px 0px;
+        height: 580px;
+        width: 50vw;
+      }
+    .img1{
+       height: 300px; 
+       width: 300px;
+       margin: -5px -5px 17px 118px;
+    }
+    .img2{
+       height: 300px; 
+       width: 200px;
+       margin: 10px 29px -115px -67px;
+    }
+    .winter{
+       
+        margin: 55px 10px 3px 42px;
+    }
+    .content2{
+        padding:25px 138px 40px 43px;
+    }
+    .section4{
+        height: 350px;
+        width: 90vw;
+        margin: 0px 0px 0px 73px ;
+    }
+    .section5{
+        display: flex;
+    }
+    .box5{
+        height: 6        00px;
+        width: 50vw;
+    }
+    .box6{
+        height: 600px;
+        width: 50vw;
+    }
+    .a{
+        height: 200px;
+        width: 342px;
+        position: relative;
+        top: 68px;
+        left: 40px;
+        right: 50px;
+    }
+    .b{
+        height: 200px;
+        width: 300px;
+        position: relative;
+        top: 194px;
+        left: -27px;
+        right: 70px;
+}
+    
+    .c{
+        height: 200px;
+        width: 287px;
+        position: relative;
+        top: 111px;
+        left: 68px;
+        right: 100px;
+    }
+    .box6 h1{
+        margin: 166px 0px 0px 0px ;
+    }
+    .content3{
+        padding: 10px 215px 10px 0px;
+    }
+    .box6 b{
+        margin: 0px 0px 10px 0px;
+        font-size: 18px;
+    }
+    .price{
+        margin: 10px 0px 0px 0px;
+    }
+    header h1{
+        color: white;
+        position: relative;
+        top: -71px;
+        left: 94px;
+        width: 200px;
+    }
+    header nav p{
+         color: white;
+        position: relative;
+        top: 5px;
+        right: 586px;
+        width: 100px;
+    } 
+    .box4 button{
+        
+      margin: 0px 0px 0px 250px;
+        width: 145px;
+        height: 41px ;
+        border: 2px solid rgb(140, 140, 140);
+        background-color: rgb(225, 220, 220);
+        border-radius: 5px;
+        font-size: 17px;
+    }
+    .box4 button a{
+        text-decoration: none;
+        color: black;
+    }
+    .box4 button:hover{
+     
+       
+        color: white;
+        background-color: rgb(66, 65, 65);
+        transform: scale(1.1);
+      
+    }
+    .section6{
+        height: 230px;
+        width: 100vw;
+        border: 6px solid black;
+        background-color: rgb(33, 32, 32);
+       
+    }
+    .section6 p{
+     color: orangered;
+     margin: 29px 31px 20px 656px;
+    }
+    .section6 h1{
+        margin:  16px 31px 20px 581px;
+        color: white;
+    }
+    .section6 h6{
+        font-size: 15px;
+        color: white;
+        margin:  5px 31px 20px 457px;
+    }
+    .form{
+        display: flex;
+    }
+    .name{
+        width: 34vw;
+height: 30px;
+margin: 5px 2px 3px 22px;
+text-align: center;
+font-size: 17px;
+color: rgb(33, 32, 32) ;
+    }
+    .form button{
+        width: 15vw;
+height: 35px;
+margin: 5px 2px 3px 18px;
+font-size: 19px;
+
+border: 2px solid rgb(116, 112, 112);
+background-color: rgb(196, 191, 191);
+color: rgb(61, 60, 60);
+    }
+    .form button:hover{
+        
+transform: scale(1.1);
+border: 2px solid rgb(187, 185, 185);
+background-color: rgb(42, 41, 41);
+color: rgb(245, 242, 242);
+    }
+    .section7{
+        width: 100vw;
+        height: 450px;
+        background-color: rgb(227, 223, 223);
+        margin: 106px 0px 0px 0px;
+    }
+    .location{
+        width: 100vw;
+        height: 350px;
+        opacity: 0.7;
+    }
+    .nav{
+        display: flex;
+        margin: -10px 0px 0px 202px;
+    }
+    .nav a{
+        font-size: 19px;
+        margin: 38px 2px 5px 104px;
+        text-decoration: none;
+        color: black;
+        margin:  24px -17px 9px 104px;
+    }
+    .nav a:hover{
+       transform: scale(1.1);
+    }
+    .section7 pre{
+        width: 48vw;
+        position: relative;
+        top: 14px;
+        left: 362px;
+       
+    }
+  
+  
+  
+    </style>
+</head>
+<body>
+<div class="section1">
+    <header>
+        <nav>
+           <a class="nav1" href="Rooms&Suites.html">Rooms & Suites</a>
+           <a class="nav1"href="Specials.html">Specials & Packages</a>
+           <a class="nav1"href="Weddings.html">Weddings</a>
+           <a class="nav1"href="Areaguide.html">Area guide</a>
+           <a class="nav1"href="contacts.html">Contects</a>
+                <button><a href="registation.html">REGISTER NOW</a></button>
+           
+            <p>H O T E L</p>
+        </nav>
+        <div >
+            <img class="logo"src="logo.jpg" alt="error">
+           
+            <h1>Royal A5</h1>
+        </div>
+        <div class="middle">
+            <h1>A Best Place To Stay</h1> 
+            <pre> W E L C O M E   T O    5&#x2B50   H O T E L  </pre>
+            <p> <b> We are an 81-room hotel in the heart of India country Jaypur.</b></p>
+          
+       </div> 
+    </header>
+    <div class="about">
+      <h2> ------Lewis Bed & Breakfast------</h2>
+      <ul>
+         <li> personal approach, Delicious Breakfast </li>
+         <li> Comfortable Apartment </li>
+         <li> Affordable Price </li>
+         <button><a href="Rooms&Suites.html">Find A Room</a></button>
+    </ul>
+      <p>Need help? Call 1234567890</p>
+    </div>
+</div>
+<div class="section2">
+    <div class="box1">
+        <p>ESTABLISHED 2018</p>
+        <H1>About The A5 Hotel & Suites</H1>
+        <p class="content">We are 81-rooms hotel in the heart of India Jaypur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium necessitatibus magnam tempore id quas esse explicabo sit quasi doloremque suscipit modi eius, nostrum deleniti numquam reiciendis. Rem quod ex voluptatum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dolorem numquam dolore exercitationem explicabo alias minima, temporibus, consectetur omnis quo porro aut delectus, facilis velit aperiam quis totam dolorum! Amet ut error, soluta accusamus porro aspernatur nulla temporibus ratione eum optio corporis, atque architecto quod quam reprehenderit sint odio perspiciatis earum impedit in et quas perferendis quibusdam incidunt. Ipsam, aut! Recusandae, delectus sapiente iure, ad aliquid voluptates in sit voluptatibus consectetur ratione harum suscipit laudantium fugiat accusantium veritatis dolore at neque possimus odit nesciunt adipisci, facere rem? Impedit animi porro non blanditiis placeat quam magnam nisi minus architecto perferendis dolore.</p> 
+        <img src="sign.jpg" alt="error" class="sign">
+        <p class="manager">
+           <b> Name Surname-Manager Director</b>
+        </p>
+    </div>
+    <div class="box2">
+        <img src="gate.jpg" alt="">
+    </div>
+</div>
+<div class="section3">
+    <div class="box3">
+        <img src="winterhotel.jpeg" alt="error" class="img1">
+        <img src="bird.jpg" alt="error" class="img2">
+    </div>
+    <div class="box4">
+       <div class="winter"><h1>Winter is here,
+       </h1>
+       <h1>the pleasure can come.</h1>
+       </div> 
+       
+        <p class="content2"> Enjoy the wintry area from their most enchanting side. With our specials we have compiled for you so that nothing stands in the way of an unforgatable winter. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facere cum mollitia expedita recusandae officiis nulla est culpa ea sapiente rerum dolores ut pariatur modi accusamus voluptate tempora velit ex consequatur, tempore a! Impedit veritatis natus excepturi accusantium velit cumque officiis voluptatum adipisci, tempore ullam tenetur animi maxime est earum non ipsum, nam optio nisi cupiditate dignissimos odio. Recusandae non eius corrupti alias ullam laudantium veniam sed debitis rem.</p>
+       <button><a href="registation.html">Discover & Book</a></button>
+    </div>
+</div>
+<div>
+    <img  class="section4"src="section4.jpg" alt="error">
+</div>
+<div class="section5">
+    <div class="box5">
+        <img class="a" src="image1.jpeg" alt="error">
+        <img class="b"src="image2.jpg" alt="error">
+        <img class="c"src="image3.jpg" alt="error">
+    </div>
+    <div class="box6">
+        <h1>India cultural Events</h1>
+        <p class="content3">Our hotel is organized a 15 plus events. Hotel guests will enjoy a package discount on their event-tickets when they stay overnight. This section will show photo of our culture enents and discription of the packaging opportunities. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ab sint fuga non, debitis exercitationem sapiente magni consequuntur cumque laboriosam! Dolorem quia dicta saepe vel beatae eveniet excepturi voluptatibus molestiae id, ipsam aut nisi quibusdam cum eos perspiciatis officiis inventore perferendis velit cumque? Reiciendis ipsum suscipit voluptatum mollitia. Eos, illum. </p>
+        <b>On every monday</b>
+        <div class="price">$50 per tickets</div>
+    </div>
+</div>
+<div class="section6">
+    <p>DEALS&SPECIALEVENTS</p>
+    <h1>Sign Up to our Newsletter</h1>
+    <h6 class="content4">Put yourself in the know and receive the most exclusive Deals & Specials Events before anyone else.</h6>
+    <div>
+        <form action=""class="form">
+            <div>
+                <input class="name" type="text" placeholder="Enter Your Name" required />
+            </div>
+            <div>
+                <input class="name" type="text" placeholder="Enter Your Email Adress"required>
+              </div>
+              <div>
+                <button>Submit</button>
+              </div>
+        </form>
+        
+      </div>
+</div>
+<div class="section7">
+    <img src="location.jpg" alt="error" class="location">
+       <div class="nav">
+       <a href="Rooms&Suites.html">Rooms & Suites</a>
+       <a href="Specials.html">Specials & package</a>
+       <a href="Weddings.html">Weddings</a>
+       <a href="Areaguide.html">Area Guide</a>
+       <a href="contacts.html">Connects</a>
+       
+       </div>
+       <pre>A5 royal Hotel&suite   -   4363 state Rules39   -   Jaypur,india44610   -   p 888 988 7459</pre>
+</div>
+</body>
+</html> 

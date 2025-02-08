@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    .price1{
+        height: 310px;
+width: 79vw;
+display: flex;
+
+margin: 10px 165px;
+border-radius: 6px;
+    }
+    /* .box{
+        height: 281px;
+        width: 28vw;
+        border: 2px solid black;
+        margin: 10px 4px;
+        border-radius: 6px;
+        margin: 13px 4px 5px 43px;
+        } */
+    /* .img{
+        height: 248px;
+        width: 385px;
+        margin: 15px 3px 4px 22px;
+    } */
+    .img{
+        border: 2px solid black;
+        margin: 10px 4px;
+        border-radius: 6px;
+        margin: 15px 4px 5px 43px;
+        height: 280px;
+        width: 385px;
+    }
+    
+    .content2{
+        background-color: rgb(195, 192, 192);
+        height: 281px;
+        width: 41vw;
+        border: 2px solid black;
+        border-radius: 6px;
+        margin: 14px 4px 5px 16px;
+    }
+    .content2 h3{
+        font-size: 28px;
+margin: 25px 2px 4px 266px;
+    }
+   
+    .content2 p{
+        font-size: 42px;
+margin: 10px 2px 4px 202px;
+    }
+    .content2 h5{
+        font-size: 18px;
+margin: 10px 2px 4px 253px;
+    }
+    .content2 button{
+        
+        height: 50px;
+        width: 142px;
+        background-color: rgb(154, 153, 153);
+        border: 3px solid rgb(28, 28, 28);
+        border-radius: 5px;
+        font-size: 18px;
+        margin: 10px 2px 4px 248px;
+    }
+    .content2 button:hover{
+        background-color: rgb(142, 139, 139);
+        color: rgb(60, 59, 59);
+        transform: scale(1.1);
+        border: 3px solid rgb(60, 59, 59);
+    }
+
+    .wifi{
+        font-size: 17px;
+margin: 17px 2px 4px 275px;
+color: rgb(95, 94, 94);
+    }
+    @media (max-width:1360px) {
+
+    .content2 h3{
+        margin: 25px 2px 4px 199px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 125px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 194px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 212px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 180px;
+    }
+
+    }
+    @media (max-width:1162px) {
+    .content2 h3{
+        margin: 25px 2px 4px 170px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 105px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 166px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 184px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 154px;
+    }
+        
+    }
+    @media (max-width:1058px) {
+    .content2 h3{
+        margin: 25px 2px 4px 150px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 85px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 144px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 167px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 137px;
+    }
+        
+    }
+    @media (max-width:1120px) {
+    .content2 h3{
+        margin: 25px 2px 4px 130px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 60px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 127px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 148px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 115px;
+    }
+    .price1{
+        margin: 10px 74px;
+    }
+        
+    }
+    @media (max-width:1042px){
+     .price1{
+        display: flex;
+        flex-direction: column;
+        height: 575px;
+     }
+     .img{
+        width: 492px;
+        margin: 15px 4px 5px 157px;
+     }
+     .content2{
+        width: 48vw;
+        margin: 14px 4px 5px 155px;
+     }
+     .content2 h3{
+        margin: 25px 2px 4px 182px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 113px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 178px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 195px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 172px;
+    }
+    }
+    @media (max-width:1029px){
+        .content2{
+        width: 495px;
+        margin: 14px 4px 5px 155px;  
+        }
+    }
+    @media (max-width:1029px){
+        .content2{
+      
+        margin: 14px 4px 5px 114px;  
+        }
+        .img {
+    
+    margin: 15px 4px 5px 117px;
+  }
+    }
+    @media (max-width:873px){
+        .content2{
+      
+        margin: 14px 4px 5px 93px;  
+        }
+        .img {
+    
+    margin: 15px 4px 5px 91px;
+  }
+    }
+    @media (max-width:831px){
+        .content2{
+      
+        margin: 14px 4px 5px 74px;  
+        }
+        .img {
+    
+    margin: 15px 4px 5px 72px;
+  }
+    }
+       
+    @media (max-width:793px){
+        .content2{
+      
+        margin: 14px 4px 5px 50px;  
+        }
+        .img {
+    
+    margin: 15px 4px 5px 50px;
+  }
+    }
+    @media (max-width:743px){
+        .content2{
+      
+        margin: 14px 4px 5px 19px;  
+        }
+        .img {
+    
+    margin: 15px 4px 5px 18px;
+  }
+    }
+    @media (max-width:683px){
+        .content2{
+            margin: 14px 4px 5px 3px;  
+        }
+        .img {
+            margin: 15px 4px 5px 3px;
+        }
+    }
+    @media (max-width:683px){
+        .content2{
+            margin: 14px 0px 5px 0px;
+            width: 100%;
+
+        }
+        .img {
+            margin: 0px 4px 5px 0px;
+        }
+        .price1{
+            margin: 10px 0px;
+        }
+    }
+    @media (max-width:430px){
+        .content2{
+            margin: 14px 0px 5px 0px;
+            width: 410px;
+
+        }
+        .img {
+            margin: 0px 4px 5px 0px;
+            width: 408px;
+        }
+        .price1{
+            margin: 10px 0px;
+        }
+        .content2 h3{
+        margin: 25px 2px 4px 138px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 73px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 138px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 156px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 130px;
+    }
+    }
+    @media (max-width:416px){
+        .content2{
+            margin: 14px 0px 5px 0px;
+            width: 394px;
+
+        }
+        .img {
+            margin: 0px 4px 5px 0px;
+            width: 393px;
+        }
+        .price1{
+            margin: 10px 0px;
+        }
+        .content2 h3{
+        margin: 25px 2px 4px 128px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 61px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 126px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 145px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 121px;
+    }
+    }
+    @media (max-width:392px){
+        .content2{
+            margin: 14px 0px 5px 0px;
+            width: 373px;
+
+        }
+        .img {
+            margin: 0px 4px 5px 0px;
+            width: 372px;
+        }
+    }
+    @media (max-width:385px){
+        .content2{
+            margin: 14px 0px 5px 0px;
+            width: 368px;
+
+        }
+        .img {
+            margin: 0px 4px 5px 0px;
+            width: 367px;
+        }
+    }
+    @media (max-width:376px){
+        .content2{
+            margin: 14px 0px 5px 0px;
+            width: 359px;
+
+        }
+        .img {
+            margin: 0px 4px 5px 0px;
+            width: 359px;
+        }
+
+    }
+    @media (max-width:362px){
+        .content2{
+            margin: 14px 0px 5px 0px;
+            width: 343px;
+
+        }
+        .img {
+            margin: 0px 4px 5px 0px;
+            width: 342px;
+        }
+        .price1{
+            margin: 10px 0px;
+        }
+        .content2 h3{
+        margin: 25px 2px 4px 112px;
+    }
+    .content2 p {
+        margin: 10px 2px 4px 42px;
+    }
+    .content2 h5 {
+        margin: 10px 2px 4px 107px;
+    }
+    .wifi {
+        margin: 17px 2px 4px 126px;
+    }
+    .content2 button {
+       margin: 10px 2px 4px 99px;
+    }
+    }
+       
+        
+    
+    </style>
+</head>
+<body>
+    <div class="section4">
+        
+     <div class="price1">
+        <div class="box">
+            <img src="img1.jpg" alt="" class="img">
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 11,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+        
+     <div class="price1">
+        <div class="box">
+            <img src="img2.jpg" alt="" class="img" >
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 15,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+       
+     <div class="price1">
+        <div class="box">
+            <img src="img3.jpg" alt="" class="img" >
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 21,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+       
+     <div class="price1">
+        <div class="box">
+            <img src="img4.jpg" alt="" class="img" >
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 15,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+        
+     <div class="price1">
+        <div class="box">
+            <img src="img5.jpg" alt="" class="img" >
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 16,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+        
+     <div class="price1">
+        <div class="box">
+            <img src="img6.jpg" alt="" class="img" >
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 18,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+</body>
+</html>

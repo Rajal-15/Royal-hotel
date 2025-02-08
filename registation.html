@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      header{
+            height: 18vh;
+            width: 100vw;
+        }
+            
+        
+        .section1{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(137, 137, 252);
+            
+        }
+        nav{
+            width: 54vw;
+          
+            display: flex;
+            flex-wrap: wrap;
+            float: right;
+            color: black;
+           
+        }
+        
+        
+        .nav1 {
+            text-decoration: none;
+            
+            margin: 12px 30px 3px 20px;
+            color: white;
+            font-size: 18px;
+        }
+        .nav1:hover{
+          transform: scale(1.1);        
+        }
+        .logo{
+            margin: 4px 3px 4px 4px;
+            height: 75px;
+             width:75px;
+        }
+        header h1{
+        color: white;
+        position: relative;
+        top: -71px;
+        left: 94px;
+        width: 200px;
+    }
+    header  nav p{
+         color: white;
+        position: relative;
+        top: 24px;
+        right: 588px;
+        width: 100px;
+    } 
+    .section1 h2{
+        margin: -6px 3px 4px 587px;
+        font-size: 30px;
+        height: 14vh;
+        width: 3ovw;
+        color: rgb(31, 31, 31);
+    }
+    
+    .section2{
+        height: 0vh;
+       
+        width: 1520px;
+        background: url('bg1airpod.jpg');
+        opacity: 1;
+        z-index: -1;
+       
+        background-size: cover;
+         
+        
+        /* margin: 1px auto; */
+        
+    }
+    .navbar{
+      position: absolute;
+      left: -80px;
+        margin: 9px 4px 5px 495px;
+    }
+    .container a{
+    text-decoration: none;
+     color: white;
+     margin: 28px 24px;
+     font-size: 23px;
+   padding: 10px;
+    }
+    .container a:hover{
+    color:black;
+    background-color: rgb(185, 184, 254);
+    border-radius:5px ;
+    }
+     
+      .section2 h1 {
+        color:white;
+        position: absolute;
+        top: 126px;
+        left: 623px;
+
+        text-shadow: 5px 4px 3px gray;
+        font-size: 52px;
+      }
+      .container1 {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 240px;
+        left: 643px;
+      }
+      .s1{
+       position:relative;
+       left: -150px;
+       height: 26px;
+       width: 490px; 
+       padding: 5px 10px;
+       margin: 10px auto;
+       text-align: center;
+       border:2px solid  rgb(91, 91, 255);
+       border-radius: 5px;
+       font-family: 'Delicious Handrawn', cursive;
+       font-size: 17px;
+      }
+      button{
+        width: 23%;
+        border-radius: 5px;
+       font-family: 'Delicious Handrawn', cursive;
+        border: 2px solid  rgb(91, 91, 255);
+        font-size: 17px;
+        padding: 5px 10px;
+       margin: 10px auto;
+       color: rgb(98, 97, 97);
+      }
+      .submit{
+        position: relative;
+        left:-13px;
+      }
+      button:hover{
+        background-color: rgb(91, 91, 255);
+        color: white;
+        border: 2px solid  rgb(30, 30, 75);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section1">
+        <header>
+            <nav>
+              <a class="nav1"href="project1.html">Home</a>
+               <a class="nav1" href="Rooms&Suites.html">Rooms & Suites</a>
+               <a class="nav1"href="Specials.html">Specials & Packages</a>
+               <a class="nav1"href="Weddings.html">Weddings</a>
+               <a class="nav1"href="Areaguide.html">Area guide</a>
+               <a class="nav1"href="contacts.html">Contects</a>
+               <p>H O T E L</p>
+               </nav>
+               <img class="logo"src="logo.jpg" alt="error">
+               <h1>Royal A5</h1>
+        </header> 
+    </div>
+    
+      <div class="section2">
+        <h1><center>REGISTER</center></h1>
+      </div>
+
+      <div class="container1">
+        <form action="" class="sign">
+          <div>
+            <input class="s1" type="text" placeholder="Enter Your Name" required />
+          </div>
+          <div >
+            <input class="s1" type="text" placeholder="Enter Your Last Name" required />
+          </div>
+          <div >
+            <input  class="s1"type="text" placeholder="Enter The Number Of Rooms You Required" required />
+          </div>
+          <div>
+            <input class="s1" type="text" placeholder="Enter Your City" required />
+          </div>
+          <div>
+            <input class="s1" type="text" placeholder="Enter Your Email Adress"required>
+          </div>
+          <div>
+            <input class="s1" type="text" placeholder="Enter Mobile Number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"required>
+           
+          </div>
+          
+            <div class="submit">
+            <button><b>Submit</b></button> <button><b>Reset</b></button>
+               
+            </div>  
+          </div>
+          <script>
+            function my() {
+              window.location.href = "project.html";
+            }
+          </script>
+        </form>
+      </div>
+    
+  </body>
+</html>

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specials</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 18vh;
+            width: 100vw;
+        }
+            
+        
+        .section1{
+            height: 21vh;
+            width: 100vw;
+            /* background: url('bg1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1.1; */
+        }
+        nav{
+            width: 54vw;
+           
+            display: flex;
+            flex-wrap: wrap;
+            float: right;
+            color: black;
+           
+        }
+        nav button {
+            height: 35px;
+            width: 135px;
+            border: 2px black;
+            border-radius: 10px;
+            background-color:rgb(87, 47, 50);
+            color: white;
+            font-size: 16px;
+            margin: 5px 0px;
+
+        }
+        nav button a{
+            text-decoration: none;
+            color:white;
+        }
+        nav button:hover{
+            background-color: rgb(142, 139, 139);
+            color: rgb(60, 59, 59);
+            border: 2px solid  rgb(60, 59, 59);
+            transform: scale(1.0);
+        }
+        
+        .nav1 {
+            text-decoration: none;
+            
+            margin: 13px 21px;
+           color: rgb(92, 91, 91);
+            font-size: 18px;
+        }
+        .nav1:hover{
+          transform: scale(1.1);        
+        }
+        .logo{
+            margin: 4px 3px 4px 4px;
+            height: 75px;
+             width:75px;
+        }
+        header h1{
+        color: rgb(92, 91, 91);
+        position: relative;
+        top: -71px;
+        left: 94px;
+        width: 200px;
+    }
+    header  nav p{
+         color: rgb(92, 91, 91);
+        position: relative;
+        top: 5px;
+        right: 586px;
+        width: 100px;
+    } 
+    .section2{
+        height: 142px;
+        width: 100vw;
+
+    }
+    .section2 h1{
+        color: brown;
+        font-size: 42px;
+        margin: 0px 3px 4px 700px;
+    }
+    .special h1{
+        font-size: 42px;
+        margin: 0px 3px 0px 564px;
+    }
+    .section3{
+        height: 580px;
+        width: 100vw;
+        display: flex;
+    }
+    .box1{
+        width: 46vw;
+        height: 433px;
+        background-color: rgb(181, 179, 179);
+        margin: 75px 56px 4px 33px;
+    }
+    .box2{
+        margin: 63px 3px 4px 4px;
+        width: 44vw;
+        height: 412px;
+        animation: slider 8s linear 0s infinite forwards;
+    }
+    .box1 h1{
+        font-size: 28px;
+        margin: 38px 3px 4px 45px;
+        color: black;
+    }
+    .content1{
+        font-size: 15px;
+        margin: 21px 3px 4px 5px;
+        color: black;
+        padding: 10px 93px 3px 37px;
+    }
+    .learn{
+        height: 43px;
+        width: 156px;
+        border: 2px solid black;
+        background-color: rgb(158, 157, 157);
+        border-radius: 5px;
+        margin: 57px 3px 5px 234px;
+        font-size: 20px;
+    }
+    .learn:hover{
+        transform: scale(1.1);
+        background-color: rgb(51, 50, 50);
+        color: white;
+        border: 2px solid white;
+    }
+        
+   
+    @keyframes slider{
+       
+        0%{
+            background-image: url("special1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        25%{
+            background-image: url("special2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        50%{
+            background-image: url("special3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        75%{
+            background-image: url("special4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        100%{
+            background-image: url("special1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .section4 h1{
+        font-size: 40px;
+margin: 0px 2px 52px 95px;
+    }
+    .price1{
+        height: 310px;
+width: 79vw;
+display: flex;
+
+margin: 10px 165px;
+border-radius: 6px;
+    }
+    .box{
+        height: 281px;
+        width: 28vw;
+        border: 2px solid black;
+        margin: 10px 4px;
+        border-radius: 6px;
+        margin: 13px 4px 5px 43px;
+        }
+    .img{
+        height: 248px;
+        width: 385px;
+        margin: 15px 3px 4px 22px;
+    }
+    .content2{
+        background-color: rgb(195, 192, 192);
+        height: 281px;
+        width: 41vw;
+        border: 2px solid black;
+        margin: 10px 4px;
+        border-radius: 6px;
+        margin: 14px 4px 5px 16px;
+    }
+    .content2 h3{
+        font-size: 28px;
+margin: 25px 2px 4px 266px;
+    }
+   
+    .content2 p{
+        font-size: 42px;
+margin: 10px 2px 4px 202px;
+    }
+    .content2 h5{
+        font-size: 18px;
+margin: 10px 2px 4px 253px;
+    }
+    .content2 button{
+        
+        height: 50px;
+        width: 142px;
+        background-color: rgb(154, 153, 153);
+        border: 3px solid rgb(28, 28, 28);
+        border-radius: 5px;
+        font-size: 18px;
+        margin: 10px 2px 4px 248px;
+    }
+    .content2 button:hover{
+        background-color: rgb(142, 139, 139);
+        color: rgb(60, 59, 59);
+        transform: scale(1.1);
+        border: 3px solid rgb(60, 59, 59);
+    }
+
+    .wifi{
+        font-size: 17px;
+margin: 17px 2px 4px 275px;
+color: rgb(95, 94, 94);
+    }
+    .section5{
+        height: 236px;
+        width: 100vw;
+        border: 2px solid black;
+        background-color: rgb(135, 133, 133);
+        margin-top: 124px;
+       
+    }
+    .section5 p{
+     color: orangered;
+     margin: 29px 31px 20px 656px;
+    }
+    .section5 h1{
+        margin:  16px 31px 20px 581px;
+        color: black;
+    }
+    .section5 h6{
+        font-size: 15px;
+        color: black;
+        margin:  5px 31px 20px 457px;
+    }
+    .form{
+        display: flex;
+    }
+    .name{
+        width: 34vw;
+height: 30px;
+margin: 5px 2px 3px 22px;
+text-align: center;
+font-size: 17px;
+color: rgb(33, 32, 32) ;
+    }
+    .form button{
+        width: 15vw;
+height: 35px;
+margin: 5px 2px 3px 18px;
+font-size: 19px;
+
+border: 2px solid rgb(116, 112, 112);
+background-color: rgb(196, 191, 191);
+color: rgb(61, 60, 60);
+    }
+    .form button:hover{
+        
+transform: scale(1.1);
+border: 2px solid rgb(187, 185, 185);
+background-color: rgb(42, 41, 41);
+color: rgb(245, 242, 242);
+    }
+    .foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+    }
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <header>
+            <nav>
+               <a class="nav1" href="Rooms&Suites.html">Rooms & Suites</a>
+               <a class="nav1"href="Specials.html">Specials & Packages</a>
+               <a class="nav1"href="Weddings.html">Weddings</a>
+               <a class="nav1"href="Areaguide.html">Area guide</a>
+               <a class="nav1"href="contacts.html">Contects</a>
+               <button><a href="registation.html">REGISTER NOW</a></button>
+               <p>H O T E L</p>
+               </nav>
+               <img class="logo"src="logo.jpg" alt="error">
+               <h1>Royal A5</h1>
+        </header>  
+    </div>
+    <div class="section2">
+        <div class="special"><h1>&#9679 Specials</h1></div>
+        <h1>& Packages &#9679</h1>
+        <div class="box1">
+            
+        </div>
+    </div>
+    <div class="section3">
+        <div class="box1">
+            <h1>Specials About Our Hotel.</h1>
+            <p class="content1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reiciendis ut quia ullam. Modi totam aliquid repellendus quam mollitia inventore ut placeat possimus velit cumque neque beatae excepturi ipsa, quidem dolorum maiores! Nobis, quod. Velit deleniti dignissimos odio quo exercitationem at, necessitatibus iure, officiis rem, ut accusantium recusandae! Nemo perspiciatis repellendus accusamus vel deserunt ut tempore enim! Dolorem repudiandae repellat iusto magnam est, aliquid iste tempore ratione explicabo vitae ut eaque dolore, tenetur praesentium nam quidem culpa dolor enim eum, fugiat temporibus voluptates asperiores! Corrupti ducimus praesentium repellendus iure perferendis nostrum voluptas, accusantium, repudiandae veritatis quas debitis, non facere! Vel!</p>
+            <button class="learn">Learn more</button>
+        </div>
+        <div class="box2"></div>
+    </div>
+    <div class="section4">
+        <h1> &#9679 Packages</h1>
+     <div class="price1">
+        <div class="box">
+            <img src="img1.jpg" alt="" class="img">
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 11,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+        
+     <div class="price1">
+        <div class="box">
+            <img src="img2.jpg" alt="" class="img">
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 15,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+       
+     <div class="price1">
+        <div class="box">
+            <img src="img3.jpg" alt="" class="img">
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 21,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+       
+     <div class="price1">
+        <div class="box">
+            <img src="img4.jpg" alt="" class="img">
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 15,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+        
+     <div class="price1">
+        <div class="box">
+            <img src="img5.jpg" alt="" class="img">
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 16,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section4">
+        
+     <div class="price1">
+        <div class="box">
+            <img src="img6.jpg" alt="" class="img">
+         </div>
+         <div class="content2">
+            <h3>Hotel Rest</h3>
+           <p> &#x2B50  &#x2B50  &#x2B50  &#x2B50</p> 
+            <h5>&#x20B9; 18,000 Per Day</h5>
+            <div class="wifi">FREE WI-FI</div> 
+            <button>Book Now</button> 
+        </div>
+     </div>
+    </div>
+    <div class="section5">
+        <p>DEALS&SPECIALEVENTS</p>
+        <h1>Sign Up to our Newsletter</h1>
+        <h6 class="content4">Put yourself in the know and receive the most exclusive Deals & Specials Events before anyone else.</h6>
+        <div>
+        <div>
+            <form action=""class="form">
+                <div>
+                    <input class="name" type="text" placeholder="Enter Your Name" required />
+                </div>
+                <div>
+                    <input class="name" type="text" placeholder="Enter Your Email Adress"required>
+                  </div>
+                  <div>
+                    <button>Submit</button>
+                  </div>
+            </form>
+            
+          </div>
+    </div>
+    <div class="section6">
+
+        <footer>
+            <div class="foot">
+              Copyright &copy;www.a5hotel.com. All rights reserved!
+            </div>
+          </footer>
+    </div>
+</body>
+</html>
